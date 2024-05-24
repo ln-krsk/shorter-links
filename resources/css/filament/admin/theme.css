@@ -1,0 +1,11 @@
+@import '/vendor/filament/filament/resources/css/theme.css';
+
+@config 'tailwind.config.js';
+
+@layer components {
+
+    .fi-main {
+        @apply !max-w-9xl;
+    }
+
+}
